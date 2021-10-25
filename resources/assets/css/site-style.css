@@ -1,0 +1,83 @@
+#wrapper{
+
+}
+/*--single rezume*/
+.padding{
+    padding-top: 50px !important;
+
+}
+#SingleRezume .title{
+    border-bottom: 5px solid blue;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#SingleRezume .description{
+    text-align: center;
+}
+#SingleRezume .avatar{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+#SingleRezume .avatar img{
+    width: 100%;
+}
+#SingleRezume .name {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#SingleRezume .item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.single-rezume-list{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.margin-b{
+    margin-bottom: 10px;
+}
+.single-rezume-list .image
+{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.single-rezume-list .image img{
+    width: 100%;
+}
+.single-rezume-list .item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link{
+    font-size: 13px !important;
+}
+.login-logout{
+    right: -120px !important;
+}
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+
+    }
+}
+@media (max-width: 768px){
+    #wrapper {
+        padding-right: unset !important;
+        padding-left: 0;
+    }
+}
